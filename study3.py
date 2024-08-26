@@ -8,7 +8,7 @@
 # print(f"You're now {age+1} years old!")
 
 # Dikdörtgenin Alanı
-length = float(input("Metre cinsinden uzunluğu giriniz: "))
-width = float(input("Metre cinsinden genişliği giriniz: "))
-area = length*width
-print(f"Dikdörtgenin alanı {area}m²'dir.")
+# length = float(input("Metre cinsinden uzunluğu giriniz: "))
+# width = float(input("Metre cinsinden genişliği giriniz: "))
+# area = length*width
+# print(f"Dikdörtgenin alanı {area}m²'dir.")
