@@ -21,3 +21,10 @@ r = float(input("Daire yarıçapını giriniz: "))
 pi = math.pi
 A = round(pi*math.pow(r,2),2)
 print(f"Dairenin alanı = {A}")
+
+# Dik üçgenin hipotenüsü
+dik_kenar = float(input("Dik kenar uzunluğunu giriniz: "))
+karsı_kenar = float(input("Karşı kenar uzunluğunu giriniz: "))
+
+hipotenus = math.sqrt(math.pow(dik_kenar, 2) + math.pow(karsı_kenar, 2))
+print(f"Bu üçgenin hipotenüs uzunluğu = {round(hipotenus, 2)}")
